@@ -2,6 +2,7 @@ signature SHOW =
 sig
   type 'a show
 
+  val println : string -> unit
   val int : int show
   val bool : bool show
   val char : char show

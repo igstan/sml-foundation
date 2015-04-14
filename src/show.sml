@@ -8,6 +8,8 @@ struct
   fun comma values = concat (Lists.interleave ", " values)
   fun tuple values = between "(" ")" (comma values)
 
+  fun println s = print (s ^ "\n")
+
   val int = Int.toString
   val bool = Bool.toString
   val char = Char.toString
