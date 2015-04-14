@@ -1,0 +1,13 @@
+library
+  signature SHOW
+
+  structure Lists
+  structure Tuples
+  structure Show
+is
+  $cml/basis.cm
+
+  src/lists.sml
+  src/tuples.sml
+  src/show.sig
+  src/show.sml
