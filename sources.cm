@@ -1,6 +1,8 @@
 library
+  structure Lists
   structure Tuples
 is
   $/basis.cm
 
+  src/lists.sml
   src/tuples.sml
