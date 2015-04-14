@@ -1,0 +1,6 @@
+library
+  structure Tuples
+is
+  $/basis.cm
+
+  src/tuples.sml
