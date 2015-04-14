@@ -2,15 +2,15 @@ signature SHOW =
 sig
   type 'a show
 
-  val int    : int show
-  val bool   : bool show
-  val char   : char show
-  val real   : real show
-  val word   : word show
-  val unit   : unit show
+  val int : int show
+  val bool : bool show
+  val char : char show
+  val real : real show
+  val word : word show
+  val unit : unit show
   val string : string show
-  val list   : 'a show -> 'a list show
-  val array  : 'a show -> 'a array show
+  val list : 'a show -> 'a list show
+  val array : 'a show -> 'a array show
   val vector : 'a show -> 'a vector show
   val option : 'a show -> 'a option show
   val tuple2 : 'a show * 'b show -> ('a * 'b) show
