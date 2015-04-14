@@ -1,12 +1,14 @@
 library
   signature SHOW
 
+  structure Fn
   structure Lists
-  structure Tuples
   structure Show
+  structure Tuples
 is
   $cml/basis.cm
 
+  src/fn.sml
   src/lists.sml
   src/tuples.sml
   src/show.sig
