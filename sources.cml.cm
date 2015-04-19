@@ -13,3 +13,4 @@ is
   src/tuples.sml
   src/show.sig
   src/show.sml
+  src/strings.sml
