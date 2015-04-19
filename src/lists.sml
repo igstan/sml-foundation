@@ -118,7 +118,7 @@ struct
 
     fun prepend xs x = x :: xs
     fun folder mapFolder (x, (result, acc)) =
-      Tuple2.map1st (prepend result) (mapFolder (x, acc))
+      Tuple2.map1 (prepend result) (mapFolder (x, acc))
   in
     (**
      * Map and fold left at the same time.
@@ -129,7 +129,7 @@ struct
      * ```
      *)
     fun mapFoldl mapFolder seed xs =
-      Tuple2.map1st rev (foldl (folder mapFolder) ([], seed) xs)
+      Tuple2.map1 rev (foldl (folder mapFolder) ([], seed) xs)
 
     (**
      * Map and fold right at the same time.
