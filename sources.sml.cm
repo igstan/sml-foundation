@@ -9,8 +9,8 @@ is
   $/basis.cm
 
   src/fn.sml
-  src/lists.sml
   src/tuples.sml
+  src/lists.sml
   src/show.sig
   src/show.sml
   src/strings.sml
