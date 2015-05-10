@@ -10,4 +10,5 @@ struct
   fun const a b = a
   fun curry f = fn a => fn b => f (a, b)
   fun uncurry f = fn (a, b) => f a b
+  fun flip f a b = f b a
 end
