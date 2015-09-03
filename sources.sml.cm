@@ -1,12 +1,14 @@
 library
   signature LISTS
   signature LIST_PAIRS
+  signature REF
   signature SHOW
 
   structure Case
   structure Fn
   structure Lists
   structure ListPairs
+  structure Ref
   structure Show
   structure Tuples
 is
@@ -19,6 +21,8 @@ is
   src/lists.sml
   src/list-pairs.sig
   src/list-pairs.sml
+  src/ref.sig
+  src/ref.sml
   src/show.sig
   src/show.sml
   src/strings.sml

@@ -7,6 +7,8 @@ src/lists.sig
 src/lists.sml
 src/list-pairs.sig
 src/list-pairs.sml
+src/ref.sig
+src/ref.sml
 src/show.sig
 src/show.sml
 src/strings.sml
