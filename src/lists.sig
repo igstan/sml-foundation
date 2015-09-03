@@ -13,6 +13,16 @@ sig
   val tail : 'a list -> 'a list
 
   (**
+   * A curried version of the `::` data constructor.
+   *)
+  val cons : 'a -> 'a list -> 'a list
+
+  (**
+   * Appends an element to the end of the list.
+   *)
+  val snoc : 'a -> 'a list -> 'a list
+
+  (**
    * All the list elements until the predicate returns `false`.
    *
    * ```sml

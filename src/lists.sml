@@ -6,6 +6,10 @@ struct
   val head = hd
   val tail = tl
 
+  fun cons x xs = x :: xs
+
+  fun snoc x xs = xs @ [x]
+
   fun takeWhile predicate xs =
     let
       fun recur xs result =
