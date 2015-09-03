@@ -5,6 +5,8 @@ src/fn.sml
 src/tuples.sml
 src/lists.sig
 src/lists.sml
+src/list-pairs.sig
+src/list-pairs.sml
 src/show.sig
 src/show.sml
 src/strings.sml
