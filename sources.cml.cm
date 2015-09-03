@@ -1,6 +1,7 @@
 library
   signature SHOW
 
+  structure Case
   structure Fn
   structure Lists
   structure Show
@@ -8,6 +9,7 @@ library
 is
   $cml/basis.cm
 
+  src/case.sml
   src/fn.sml
   src/tuples.sml
   src/lists.sml
