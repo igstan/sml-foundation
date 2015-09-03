@@ -1,4 +1,5 @@
 library
+  signature LISTS
   signature SHOW
 
   structure Case
@@ -12,6 +13,7 @@ is
   src/case.sml
   src/fn.sml
   src/tuples.sml
+  src/lists.sig
   src/lists.sml
   src/show.sig
   src/show.sml
