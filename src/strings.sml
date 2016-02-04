@@ -1,4 +1,4 @@
-structure Strings =
+structure Strings : STRINGS =
 struct
   (**
    * Splits a string into a list of words.
