@@ -1,5 +1,7 @@
-structure Strings : STRINGS =
+structure String : STRING =
 struct
+  open String
+
   (**
    * Splits a string into a list of words.
    *

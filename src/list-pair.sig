@@ -1,4 +1,4 @@
-signature LIST_PAIRS =
+signature LIST_PAIR =
 sig
   include LIST_PAIR
 

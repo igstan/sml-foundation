@@ -4,7 +4,7 @@ struct
 
   fun arrayToList arr = Array.foldr op:: [] arr
   fun vectorToList vec = Vector.foldr op:: [] vec
-  fun comma values = concat (Lists.interleave ", " values)
+  fun comma values = concat (List.interleave ", " values)
   fun between a b c = a ^ (comma c) ^ b
   fun tuple values = between "(" ")" values
 

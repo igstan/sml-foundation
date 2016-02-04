@@ -1,4 +1,4 @@
-signature LISTS =
+signature LIST =
 sig
   include LIST
 

@@ -1,5 +1,7 @@
-structure Options : OPTIONS =
+structure Option : OPTION =
 struct
+  open Option
+
   fun getOrElse option default =
     case option of
       NONE => Lazy.force default

@@ -1,4 +1,4 @@
-structure Lists : LISTS =
+structure List : LIST =
 struct
   open List
   open Tuples

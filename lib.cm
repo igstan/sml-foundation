@@ -4,25 +4,25 @@ library (0.1.2)
 
   signature FN
   signature LAZY
-  signature LISTS
-  signature LIST_PAIRS
-  signature OPTIONS
+  signature LIST
+  signature LIST_PAIR
+  signature OPTION
   signature REF
   signature SHOW
-  signature STRINGS
+  signature STRING
 
   structure Case
   structure Fn
   structure Keys
   structure Lazy
-  structure ListPairs
-  structure Lists
+  structure ListPair
+  structure List
   structure Maps
-  structure Options
+  structure Option
   structure Ref
   structure Sets
   structure Show
-  structure Strings
+  structure String
   structure Tuples
 
   functor SetOrdKey
@@ -42,18 +42,18 @@ is
   src/keys.sml
   src/lazy.sig
   src/lazy.sml
-  src/list-pairs.sig
-  src/list-pairs.sml
-  src/lists.sig
-  src/lists.sml
+  src/list-pair.sig
+  src/list-pair.sml
+  src/list.sig
+  src/list.sml
   src/maps.sml
-  src/options.sig
-  src/options.sml
+  src/option.sig
+  src/option.sml
   src/ref.sig
   src/ref.sml
   src/sets.sml
   src/show.sig
   src/show.sml
-  src/strings.sig
-  src/strings.sml
+  src/string.sig
+  src/string.sml
   src/tuples.sml
