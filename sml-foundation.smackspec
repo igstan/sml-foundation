@@ -1,4 +1,4 @@
-provides: sml-extras 0.1.2
-remote: git git://github.com/igstan/sml-extras.git
+provides: sml-foundation 0.1.2
+remote: git git://github.com/igstan/sml-foundation.git
 description: Additions to Standard ML's Basis library
 maintainer: Ionuț G. Stan <ionut.g.stan at gmail dot com>
