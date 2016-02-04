@@ -1,4 +1,7 @@
 library
+  library($/basis.cm)
+  library($/smlnj-lib.cm)
+
   signature FN
   signature LAZY
   signature LISTS
