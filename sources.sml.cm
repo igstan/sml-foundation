@@ -9,7 +9,9 @@ library
   structure Keys
   structure Lists
   structure ListPairs
+  structure Maps
   structure Ref
+  structure Sets
   structure Show
   structure Tuples
 
@@ -32,8 +34,10 @@ is
   src/lists.sml
   src/list-pairs.sig
   src/list-pairs.sml
+  src/maps.sml
   src/ref.sig
   src/ref.sml
+  src/sets.sml
   src/show.sig
   src/show.sml
   src/strings.sml
