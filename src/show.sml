@@ -4,9 +4,9 @@ struct
 
   fun arrayToList arr = Array.foldr op:: [] arr
   fun vectorToList vec = Vector.foldr op:: [] vec
-  fun between a b c = a ^ c ^ b
   fun comma values = concat (Lists.interleave ", " values)
-  fun tuple values = between "(" ")" (comma values)
+  fun between a b c = a ^ (comma c) ^ b
+  fun tuple values = between "(" ")" values
 
   fun println s = print (s ^ "\n")
 
@@ -19,13 +19,13 @@ struct
   val string = fn s => "\"" ^ s ^ "\""
 
   fun list show xs =
-    between "[" "]" (comma (map show xs))
+    between "[" "]" (map show xs)
 
   fun array show xs =
-    between "[|" "|]" (comma (map show (arrayToList xs)))
+    between "[|" "|]" (map show (arrayToList xs))
 
   fun vector show xs =
-    between "#[" "]" (comma (map show (vectorToList xs)))
+    between "#[" "]" (map show (vectorToList xs))
 
   fun option show a =
     case a of
