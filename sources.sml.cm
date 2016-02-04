@@ -6,17 +6,28 @@ library
 
   structure Case
   structure Fn
+  structure Keys
   structure Lists
   structure ListPairs
   structure Ref
   structure Show
   structure Tuples
+
+  functor SetOrdKey
+  functor Tuple2OrdKey
+  functor Tuple3OrdKey
+  functor Tuple4OrdKey
+  functor Tuple5OrdKey
+  functor Tuple6OrdKey
+  functor Tuple7OrdKey
 is
   $/basis.cm
+  $/smlnj-lib.cm
 
   src/case.sml
   src/fn.sml
   src/tuples.sml
+  src/keys.sml
   src/lists.sig
   src/lists.sml
   src/list-pairs.sig
