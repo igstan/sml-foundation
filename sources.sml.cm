@@ -2,6 +2,7 @@ library
   signature LAZY
   signature LISTS
   signature LIST_PAIRS
+  signature OPTIONS
   signature REF
   signature SHOW
 
@@ -12,6 +13,7 @@ library
   structure Lists
   structure ListPairs
   structure Maps
+  structure Options
   structure Ref
   structure Sets
   structure Show
@@ -39,6 +41,8 @@ is
   src/list-pairs.sig
   src/list-pairs.sml
   src/maps.sml
+  src/options.sig
+  src/options.sml
   src/ref.sig
   src/ref.sml
   src/sets.sml
