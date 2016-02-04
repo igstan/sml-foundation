@@ -14,5 +14,9 @@ sig
     structure <| : sig
       val <| : ('a -> 'b) * 'a -> 'b
     end
+
+    val |> : 'a * ('a -> 'b) -> 'b
+    val $ : ('a -> 'b) * 'a -> 'b
+    val <| : ('a -> 'b) * 'a -> 'b
   end
 end
