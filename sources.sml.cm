@@ -15,8 +15,8 @@ library
   structure Fn
   structure Keys
   structure Lazy
-  structure Lists
   structure ListPairs
+  structure Lists
   structure Maps
   structure Options
   structure Ref
@@ -39,14 +39,13 @@ is
   src/case.sml
   src/fn.sig
   src/fn.sml
-  src/tuples.sml
   src/keys.sml
   src/lazy.sig
   src/lazy.sml
-  src/lists.sig
-  src/lists.sml
   src/list-pairs.sig
   src/list-pairs.sml
+  src/lists.sig
+  src/lists.sml
   src/maps.sml
   src/options.sig
   src/options.sml
@@ -57,3 +56,4 @@ is
   src/show.sml
   src/strings.sig
   src/strings.sml
+  src/tuples.sml
