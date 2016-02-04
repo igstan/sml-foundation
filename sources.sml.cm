@@ -1,4 +1,5 @@
 library
+  signature LAZY
   signature LISTS
   signature LIST_PAIRS
   signature REF
@@ -7,6 +8,7 @@ library
   structure Case
   structure Fn
   structure Keys
+  structure Lazy
   structure Lists
   structure ListPairs
   structure Maps
@@ -30,6 +32,8 @@ is
   src/fn.sml
   src/tuples.sml
   src/keys.sml
+  src/lazy.sig
+  src/lazy.sml
   src/lists.sig
   src/lists.sml
   src/list-pairs.sig
