@@ -1,4 +1,4 @@
-structure ListPairs : LIST_PAIR =
+structure ListPair : LIST_PAIR =
 struct
   open ListPair
 
