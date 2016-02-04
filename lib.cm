@@ -1,4 +1,4 @@
-library
+library (0.1.2)
   library($/basis.cm)
   library($/smlnj-lib.cm)
 
