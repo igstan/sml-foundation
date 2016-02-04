@@ -1,5 +1,7 @@
-structure Ref :> REF =
+structure Ref : REF =
 struct
+  open Ref
+
   fun getAndIncrement cell =
     !cell before (cell := !cell + 1)
 
@@ -13,8 +15,5 @@ struct
     (cell := f (!cell) ; !cell)
 
   fun update cell f =
-    cell := f (!cell)
-
-  fun =! (cell, f) =
     cell := f (!cell)
 end

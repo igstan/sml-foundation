@@ -1,5 +1,7 @@
 signature REF =
 sig
+  include REF
+
   val getAndIncrement : int ref -> int
   val incrementAndGet : int ref -> int
 
@@ -20,9 +22,4 @@ sig
    * ```
    *)
   val update : 'a ref -> ('a -> 'a) -> unit
-
-  (**
-   * An alias for `update`.
-   *)
-  val =! : ('a ref * ('a -> 'a)) -> unit
 end

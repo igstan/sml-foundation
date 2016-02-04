@@ -1,4 +1,5 @@
 library
+  signature FN
   signature LAZY
   signature LISTS
   signature LIST_PAIRS
@@ -33,6 +34,7 @@ is
   $/smlnj-lib.cm
 
   src/case.sml
+  src/fn.sig
   src/fn.sml
   src/tuples.sml
   src/keys.sml
