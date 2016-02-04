@@ -23,4 +23,7 @@ struct
    * ```
    *)
   fun lines str = String.tokens (fn c => c = #"\n") str
+
+  fun repeat times s =
+    String.concat (List.tabulate (times, Fn.const s))
 end
