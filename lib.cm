@@ -3,6 +3,7 @@ library (0.1.3)
   library($/smlnj-lib.cm)
 
   signature FN
+  signature INTEGER
   signature LAZY
   signature LIST
   signature LIST_PAIR
@@ -13,10 +14,11 @@ library (0.1.3)
 
   structure Case
   structure Fn
+  structure Int
   structure Keys
   structure Lazy
-  structure ListPair
   structure List
+  structure ListPair
   structure Maps
   structure Option
   structure Ref
@@ -39,6 +41,8 @@ is
   src/case.sml
   src/fn.sig
   src/fn.sml
+  src/int.sml
+  src/integer.sig
   src/keys.sml
   src/lazy.sig
   src/lazy.sml
